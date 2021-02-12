@@ -1,19 +1,45 @@
-head {
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 body{
-background-color: #a5a58d;
+background-image: url(https://images.unsplash.com/photo-1532700423154-2354d7f5d61a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+background-repeat: no-repeat;
 }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Poiret One', cursive;
     text-align: center;
     color: #fff;
 }
 
-nav {
-    
+
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #ddd;
 }
 
 footer {
